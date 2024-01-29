@@ -40,6 +40,7 @@ module Types
     [Types::ItemType],
     null: false, 
     description: "Return a list of items"
+    
 
     def items
       Item.all
